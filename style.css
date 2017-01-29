@@ -1,0 +1,18 @@
+﻿
+body{
+	background:#ccc;
+}
+
+.a{
+	width:100px;
+	height:100px;
+	border:1px solid red;
+	margin:50px auto;
+	transition:transform .2s linear;
+}
+ 
+ .a:hover{
+	transform-origin:0 0;
+ transform:scale(2);
+ }
+
